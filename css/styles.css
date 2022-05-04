@@ -1,0 +1,74 @@
+:root {
+    --primary-bg-color: #ffffff;
+    --secondary-bg-color: #000000;
+    --primary-color: #deb89b;
+    --secondary-color: #7ec6ef;
+    --alternate-color: #cccccc;
+    --primary-text-color: #000000;
+    --secondary-text-color: #ffffff;
+    --button-frame-color: #4185cf;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+}
+
+h1 {
+    font-size: 4rem;
+    font-family:
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+li {
+    list-style: none;
+}
+
+i {
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+header {
+    background-color: var(--secondary-bg-color);
+    display: flex;
+    position: absolute;
+    padding: 40px 50px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.logo_container {
+    width: 10rem;
+}
+
+.logo {
+    width: 100%;
+}
+
+nav {
+    position: absolute;
+    right: 0px;
+    margin-right: 100px;
+    background-color: var(--secondary-color);
+}
