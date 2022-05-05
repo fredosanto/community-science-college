@@ -16,11 +16,16 @@
 }
 
 body {
+    font-family: 'Monsterrat', Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--primary-text-color);
+    line-height: 1.5;
+    width: 100%;
+    min-height: 100vh;
 }
 
 h1 {
     font-size: 4rem;
-    font-family:
+    font-family: 'Bebas Neue', Monsterat, Verdana, Geneva, Tahoma, sans-serif
 }
 
 h2 {
@@ -50,12 +55,16 @@ i {
 
 header {
     background-color: var(--secondary-bg-color);
-    display: flex;
-    position: absolute;
     padding: 40px 50px;
     width: 100%;
-    align-items: center;
+    /* align-items: center;
+    text-align: center; */
+    display: flex;
+    flex-direction: row;
     text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    /* position: absolute; */
 }
 
 .logo_container {
@@ -66,9 +75,27 @@ header {
     width: 100%;
 }
 
-nav {
+.menu {
+    
+}
+
+/* nav {
     position: absolute;
     right: 0px;
     margin-right: 100px;
     background-color: var(--secondary-color);
+} */
+
+
+/* MAIN SECTION */
+
+.hero-header {
+    background-image: url(/images/exhibition-1863344_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    background-position-y: top;
+    background-position-x: 20%;
+
+    
 }
