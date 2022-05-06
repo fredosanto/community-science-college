@@ -46,13 +46,10 @@
     margin: 10px auto;
 }
 
-
 .event_image {
     flex: 1;
     height: 50vh;
 }
-
-
 
 .event_image img {
     object-fit: cover;
