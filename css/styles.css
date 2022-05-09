@@ -168,9 +168,11 @@ footer {
     padding: 10px;
 }
 
-.footer_nav a{
-    color: var(--secondary-text-color);
+.footer_grid {
+    display: grid;
+    grid-template-rows: 1fr;
 }
+
 
 footer i {
     margin-top: 25px;
@@ -186,6 +188,33 @@ th {
     padding-right: 5px;
 }
 
+.footer_nav {
+    margin: 20px 0;
+}
+
+.footer_nav a{
+    color: var(--secondary-text-color);
+}
+
 .logo_footer {
     width: 10rem;
+    margin: 20px auto;
+}
+
+.social-media {
+    margin-bottom: 20px;
+}
+
+.social-media i {
+    margin: 5px;
+}
+
+.copyright {
+    background-color: var(--primary-color);
+    width: 100%;
+    text-align: center;
+}
+
+.copyright p {
+    font-size: 0.75rem;
 }
