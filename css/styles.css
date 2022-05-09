@@ -40,7 +40,8 @@ h3 {
 }
 
 h4 {
-    font-size: 2rem;
+    font-size: 1.25rem;
+    font-weight: 600;
 }
 
 p {
@@ -63,10 +64,35 @@ i {
     font-size: 2rem;
 }
 
+label {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+input {
+    font-size: 1.25rem;
+    font-weight: 300;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.text {
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+    border-style: none;
+}
+
+::placeholder {
+    color: var(--primary-text-color);
+    opacity: 20%;
+}
+
 
 /* BUTTONS */
 .btn {
     color: var(--secondary-text-color);
+    font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;;
     font-size: 2rem;
     font-weight: 600;
     background-color: #000000;
@@ -75,8 +101,9 @@ i {
     display: inline-block;
     padding: 5px 20px;
     margin-top: 10px;
-    
 }
+
+
 
 /* HEADER & NAVBAR */
 header {
@@ -132,4 +159,33 @@ nav ul a:hover {
 }
 
 
-/* MAIN SECTION */
+/* FOOTER */
+footer {
+    background-color: var(--secondary-bg-color);
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.footer_nav a{
+    color: var(--secondary-text-color);
+}
+
+footer i {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+table {
+    margin: 10px auto;
+    text-align: center;
+}
+
+th {
+    padding-right: 5px;
+}
+
+.logo_footer {
+    width: 10rem;
+}
