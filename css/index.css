@@ -85,7 +85,13 @@ section p {
 
 /* EXPLORE SECTION */
 
+.explore_grid {
+    display: flex;
+    flex-direction: column;
+}
+
 .explore_container {
+    flex: 1;
     display: grid;
     grid-template-rows: 1fr;
     margin: 20px 0;
