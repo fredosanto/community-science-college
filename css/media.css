@@ -6,16 +6,21 @@
         gap: 10px;
     }
 
-    .newsletter,
-    .contact,
-    .support {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
+    
     .support_image,
     .contact_image,
     .newsletter_image  {
         display: inline;
+    }
+
+    /* .newsletter,
+    .contact,
+    .support {
+        display: grid;
+        grid-template-columns: 1fr;
+    } */
+
+    .newsletter {
+        grid-template-columns: 1fr;
     }
 }
