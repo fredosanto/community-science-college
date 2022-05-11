@@ -66,16 +66,15 @@ section p {
 .textbox {
     padding: 10px;
     padding-bottom: 25px;
-    max-height: 60vh;
 }
 
 .textbox_content {
     max-width: 800px;
-    margin: auto;
+    margin: 50px auto;
 }
 
 .textbox p {
-    
+    font-size: 1.25rem;
 }
 
 /* EVENT SECTION */
@@ -122,35 +121,14 @@ section p {
     margin: 20px 0;
 }
 
-.newsletter {
-    display: grid;
-    grid-template-rows: 1fr;
-    margin: 20px 0;
-}
-
-.newsletter_image img {
-    width: 100%;
-}
-
-.newsletter_image {
+.info-section_image {
     display: none;
 }
 
-.contact_image img {
+.info-section_image img {
     width: 100%;
 }
 
-.contact_image {
-    display: none;
-}
-
-.support_image img {
-    width: 100%;
-}
-
-.support_image {
-    display: none;
-}
 
 
 

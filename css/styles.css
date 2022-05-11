@@ -67,6 +67,7 @@ i {
 label {
     font-size: 1.25rem;
     font-weight: 300;
+    display: block;
 }
 
 input {

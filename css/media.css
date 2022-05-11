@@ -6,17 +6,30 @@
         gap: 10px;
     }
 
-    .support_image,
-    .contact_image,
-    .newsletter_image  {
-        display: inline;
+    .info_textbox {
+        min-height: 50vh;
     }
 
+    
     .newsletter,
     .contact,
     .support {
         grid-template-columns: 1fr 1fr;
     }
+
+    .info-section_image {
+        display: inline;
+    }
+
+    /* .info-section_image img {
+        max-width: 1000px;
+        min-height: 60vh;
+    } */
+
+    /* .info-section_textbox {
+        max-height: 60vh;
+    } */
+
 
 }
 
@@ -31,6 +44,5 @@
 
     .event_image img{
         height: 60vh;
-        /* max-width: 1000px; */
     }
 }
