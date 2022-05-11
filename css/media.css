@@ -6,21 +6,31 @@
         gap: 10px;
     }
 
-    
     .support_image,
     .contact_image,
     .newsletter_image  {
         display: inline;
     }
 
-    /* .newsletter,
+    .newsletter,
     .contact,
     .support {
-        display: grid;
-        grid-template-columns: 1fr;
-    } */
+        grid-template-columns: 1fr 1fr;
+    }
 
-    .newsletter {
-        grid-template-columns: 1fr;
+}
+
+@media (min-width: 1400px) {
+    .event_container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .event-1 :nth-child(1) {
+        order: 2;
+    }
+
+    .event_image img{
+        height: 60vh;
+        /* max-width: 1000px; */
     }
 }

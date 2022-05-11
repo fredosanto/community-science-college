@@ -60,11 +60,22 @@ section p {
 .image_container {
     display: grid;
     align-items: end;
+    max-height: 60vh;
 }
 
 .textbox {
     padding: 10px;
     padding-bottom: 25px;
+    max-height: 60vh;
+}
+
+.textbox_content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.textbox p {
+    
 }
 
 /* EVENT SECTION */
@@ -106,6 +117,12 @@ section p {
 .newsletter,
 .contact,
 .support {
+    display: grid;
+    grid-template-rows: 1fr;
+    margin: 20px 0;
+}
+
+.newsletter {
     display: grid;
     grid-template-rows: 1fr;
     margin: 20px 0;
