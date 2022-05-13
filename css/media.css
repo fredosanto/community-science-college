@@ -5,7 +5,7 @@
 @media (min-width: 1400px) {
     header {
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: center;
     }
 
     header label {
@@ -14,10 +14,16 @@
 
     nav {
         display: block;
+        position: static;
+        background-color: var(--secondary-bg-color);
     }
 
     nav li {
         display: inline-block;
+    }
+
+    nav li a {
+        color: var(--secondary-text-color);
     }
 
     .explore_grid {

@@ -109,7 +109,7 @@ input {
 /* HEADER & NAVBAR */
 header {
     background-color: var(--secondary-bg-color);
-    padding: 40px 50px;
+    padding: 10px 50px;
     width: 100%;
     align-items: center;
     text-align: center;
@@ -117,10 +117,18 @@ header {
     text-align: center;
     align-items: center;
     justify-content: space-between;
+    height: 150px;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+}
+
+.fixed-space {
+    margin-bottom: 150px;
 }
 
 .logo_container {
-    width: 20rem;
+    width: 15rem;
 }
 
 .logo {
@@ -132,12 +140,11 @@ nav {
     background-color: var(--primary-bg-color);
     position: absolute;
     display: none;
-    /* width: 275px; */
     right: 50px;
     padding: 20px;
     z-index: 100;
     text-align: left;
-    top: 120px;
+    top: 90px;
 }
 
 nav ul {
