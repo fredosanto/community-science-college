@@ -120,7 +120,7 @@ header {
 }
 
 .logo_container {
-    width: 10rem;
+    width: 20rem;
 }
 
 .logo {
@@ -132,15 +132,22 @@ nav {
     background-color: var(--primary-bg-color);
     position: absolute;
     display: none;
-    width: 275px;
+    /* width: 275px; */
     right: 50px;
     padding: 20px;
     z-index: 100;
+    text-align: left;
+    top: 120px;
 }
 
-nav a {
-    font-size: 2rem;
-    font-weight: 400;
+nav ul {
+    padding: 0px;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+    padding: 10px 20px;
 }
 
 #hamburger-menu {
@@ -161,6 +168,7 @@ nav ul a:hover {
 
 
 /* FOOTER */
+
 footer {
     background-color: var(--secondary-bg-color);
     color: var(--secondary-text-color);
@@ -169,9 +177,20 @@ footer {
     padding: 10px;
 }
 
+/* FOOTER */
 .footer_grid {
-    display: grid;
-    grid-template-rows: 1fr;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.footer_grid a:hover {
+    text-decoration: 2px underline;
+}
+
+.footer_grid td {
+    text-decoration: 2px underline;
 }
 
 
@@ -198,7 +217,7 @@ th {
 }
 
 .logo_footer {
-    width: 10rem;
+    width: 20rem;
     margin: 20px auto;
 }
 

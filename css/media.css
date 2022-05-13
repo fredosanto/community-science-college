@@ -3,6 +3,22 @@
 }
 
 @media (min-width: 1400px) {
+    header {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    header label {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav li {
+        display: inline-block;
+    }
 
     .explore_grid {
         flex-direction: row;
@@ -26,6 +42,10 @@
 
     .info-section_image {
         display: inline;
+    }
+
+    .footer_grid {
+        flex-direction: row;
     }
 
 }
