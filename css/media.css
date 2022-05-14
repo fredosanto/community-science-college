@@ -26,6 +26,10 @@
     .upcoming_container {
         grid-template-columns: 1fr 1fr;
     }
+
+    .test_container {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media (min-width: 1250px) {
