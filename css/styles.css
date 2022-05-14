@@ -104,6 +104,29 @@ input {
     margin-top: 10px;
 }
 
+.back_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.fa-arrow-left {
+    color: var(--primary-text-color);
+    font-size: 2rem;
+}
+
+.back_icon,
+.back_text {
+    display: inline-block;
+}
+
+.back_text {
+    margin: auto;
+    font-size: 2rem;
+}
+
 
 
 /* HEADER & NAVBAR */
@@ -111,8 +134,6 @@ header {
     background-color: var(--secondary-bg-color);
     padding: 10px 50px;
     width: 100%;
-    align-items: center;
-    text-align: center;
     display: flex;
     text-align: center;
     align-items: center;
@@ -224,7 +245,7 @@ th {
 }
 
 .logo_footer {
-    width: 20rem;
+    width: 15rem;
     margin: 20px auto;
 }
 
