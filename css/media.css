@@ -1,5 +1,27 @@
 /* MEDIA */
 @media (min-width: 860px) {
+    .exhibition {
+        margin: 10px;
+    }
+
+    .exhibition_grid {
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    }
+
+    .exhibition_text {
+        min-height: 300px;
+        max-height: 400px;
+    }
+}
+
+@media (min-width: 1048px) {
+    .exhibition_text {
+        min-height: 500px;
+    }
+
+    .explore-main_container {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media (min-width: 1250px) {

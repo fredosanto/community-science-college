@@ -23,6 +23,11 @@ body {
     min-height: 100vh;
 }
 
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 h1 {
     font-size: 4rem;
     font-family: 'Bebas Neue', Monsterat, Verdana, Geneva, Tahoma, sans-serif
