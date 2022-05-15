@@ -5,6 +5,8 @@
 .upcoming_container {
     display: grid;
     grid-template-columns: 1fr;
+    width: 100%;
+    margin: auto;
 }
 
 .upcoming_image img {
@@ -20,8 +22,13 @@
 .upcoming_content {
     text-align: left;
     margin: auto;
-    max-width: 700px;
+    max-width: 900px;
     padding: 20px 10px;
+}
+
+.upcoming_hours {
+    padding: 20px;
+    padding-left: 0;
 }
 
 .upcoming_hours table {
@@ -33,46 +40,3 @@
     text-decoration: underline;
 }
 
-/* TEST */
-
-.test {
-    text-align: center;
-}
-
-
-.test_grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 25px;
-    width: 90vw;
-    margin: auto;
-}
-
-.test_container {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-.test_image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.test_text {
-    background-color: var(--primary-color);
-    display: grid;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
-.text_align {
-    padding: 20px;
-}
-
-.test_content {
-    text-align: left;
-    margin: auto;
-    max-width: 700px;
-}
