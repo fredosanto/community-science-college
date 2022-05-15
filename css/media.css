@@ -30,6 +30,10 @@
     .test_container {
         grid-template-columns: 1fr 1fr;
     }
+
+    .test-1 :nth-child(1) {
+        order: 2;
+    }
 }
 
 @media (min-width: 1250px) {
