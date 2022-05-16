@@ -1,5 +1,8 @@
 /* MEDIA */
 @media (min-width: 860px) {
+    .explore_container {
+        width: 90%;
+    }
     .exhibition {
         margin: 10px;
     }
@@ -15,6 +18,9 @@
 }
 
 @media (min-width: 1048px) {
+    .grid_container {
+        width: 90%;
+    }
     .grid_items {
         grid-template-columns: 1fr 1fr;
     }
@@ -32,6 +38,14 @@
 
     .exhibition_text {
         min-height: 500px;
+    }
+
+    .current_grid {
+        width: 90%;
+    }
+
+    .current_item {
+        grid-template-columns: 1fr 1fr;
     }
     
 
@@ -92,6 +106,10 @@
 
     .upcoming_container :nth-child(1) {
         order: 2;
+    }
+
+    .current_image {
+        max-height: 560px;
     }
 
     .footer_grid {
