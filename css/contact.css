@@ -1,0 +1,14 @@
+.bg-main {
+    background-color: var(--primary-color);
+}
+.bg-grey {
+    background-color: var(--alternate-color);
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact_input label {
+    text-align: left;
+}
