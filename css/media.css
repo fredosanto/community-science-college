@@ -64,6 +64,26 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    .about_container {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .about_container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .get-involved_item {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .get-involved_item-1 :nth-child(1) {
+        order: 2;
+    }
+
+    .get-involved_item-3 :nth-child(1) {
+        order: 2;
+    }
+
 }
 
 @media (min-width: 1250px) {

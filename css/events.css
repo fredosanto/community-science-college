@@ -28,6 +28,10 @@
     padding: 20px 10px;
 }
 
+.upcoming_content p {
+    padding: 10px;
+}
+
 .upcoming_hours {
     padding: 20px;
     padding-left: 0;
@@ -91,6 +95,10 @@
     padding: 20px 10px;
 }
 
+.current_content p{
+    padding: 10px;
+}
+
 .current_text {
     display: grid;
     text-align: center;
@@ -98,16 +106,13 @@
     justify-content: center;
 }
 
-
-.current_content {
-    text-align: left;
-    margin: auto;
-    max-width: 700px;
-}
-
 .current_hours {
     padding: 20px;
     padding-left: 0;
+}
+
+.upcoming_hours {
+    padding-left: 10px;
 }
 
 .upcoming_hours table {

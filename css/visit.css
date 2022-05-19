@@ -16,8 +16,13 @@
     gap: 25px;
 }
 
+.visit_container {
+    border: 1px solid #000000;
+}
+
 .visit_container h3 {
     text-decoration: 1px underline;
+    padding-top: 25px;
 }
 
 .visit_content {

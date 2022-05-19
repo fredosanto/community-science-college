@@ -15,7 +15,7 @@
 }
 
 .hero-text {
-    background-color: rgb(126, 198, 239, 0.8);
+    background-color: rgb(126, 198, 239, 0.9);
     min-width: 300px;
     max-width: 700px;
     top: 50px;
@@ -172,6 +172,10 @@ section p {
 }
 
 .info-content_textbox p {
+    text-align: center;
+}
+
+.newsletter {
     text-align: center;
 }
 
