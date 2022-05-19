@@ -47,7 +47,22 @@
     .current_item {
         grid-template-columns: 1fr 1fr;
     }
+
+    .upcoming_container {
+        grid-template-columns: 1fr 1fr;
+    }
     
+    .upcoming_container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .upcoming_container :nth-child(1) {
+        order: 2;
+    }
+
+    .visit_grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 
 }
 
@@ -97,14 +112,6 @@
         order: 2;
     }
     .explore-item-3 :nth-child(1) {
-        order: 2;
-    }
-
-    .upcoming_container {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .upcoming_container :nth-child(1) {
         order: 2;
     }
 

@@ -1,0 +1,50 @@
+.visit-info {
+    text-align: center;
+}
+
+.bg-main {
+    background-color: var(--primary-color);
+}
+
+.bg-blue {
+    background-color: var(--secondary-color);
+}
+
+.visit_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+}
+
+.visit_container h3 {
+    text-decoration: 1px underline;
+}
+
+.visit_content {
+    padding: 25px;
+}
+
+.price-info p {
+    padding: 10px;
+}
+
+.price-info b {
+    font-weight: 600;
+}
+
+.general-info i {
+    color: var(--primary-text-colour);
+    font-size: 2rem;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.info-image {
+    background-image: url(/images/museum-building.jpg);
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
