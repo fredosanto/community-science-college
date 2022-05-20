@@ -45,4 +45,18 @@
     padding: 10px;
 }
 
+.submit {
+    text-align: center;
+}
+
+
+/* CONTACT INFO */
+.contact_location,
+.contact_phone,
+.contact_email,
+.contact_social {
+    text-align: center;
+    padding: 15px;
+}
+
 

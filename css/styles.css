@@ -71,6 +71,10 @@ i {
     font-size: 2rem;
 }
 
+.menu label i {
+    color: #ffffff;
+}
+
 footer i {
     color: #ffffff;
     font-size: 2rem;
