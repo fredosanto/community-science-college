@@ -9,6 +9,40 @@
     text-align: center;
 }
 
-.contact_input label {
+.contact_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.contact_content {
     text-align: left;
 }
+
+.contact_form {
+
+}
+
+.contact_input {
+    margin: 10px;
+}
+
+.contact_input input,
+.contact_input textarea {
+    width: 100%;
+    outline: none;
+    border: 1px solid #000000;
+}
+
+.contact_input input:focus {
+    border: 4px solid var(--button-frame-color);
+}
+
+.contact_input textarea {
+    font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-weight: 300;
+    padding: 10px;
+}
+
+
