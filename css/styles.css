@@ -209,6 +209,8 @@ nav li {
 
 nav ul a:hover {
     background-color: var(--primary-color);
+    color: var(--primary-text-color);
+    padding: 5px 5px;
 }
 
 .active {
