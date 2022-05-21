@@ -179,7 +179,7 @@ header {
 
 
 nav {
-    background-color: var(--primary-bg-color);
+    background-color: var(--secondary-color);
     position: absolute;
     display: none;
     right: 50px;
@@ -210,7 +210,6 @@ nav li {
 nav ul a:hover {
     background-color: var(--primary-color);
     color: var(--primary-text-color);
-    padding: 5px 5px;
 }
 
 .active {
