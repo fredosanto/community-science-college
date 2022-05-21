@@ -212,6 +212,10 @@ nav li {
 
 #hamburger-menu:checked ~ nav {
     display: block;
+    width: 50%;
+    text-align: center;
+    background-color: var(--primary-bg-color);
+    border: 5px solid var(--primary-color);
 }
 
 nav ul a:hover {
