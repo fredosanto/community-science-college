@@ -1,9 +1,4 @@
-.bg-main {
-    background-color: var(--primary-color);
-}
-.bg-grey {
-    background-color: var(--alternate-color);
-}
+
 
 .contact-info {
     text-align: center;
@@ -58,6 +53,17 @@
 
 .price-info b{
     font-weight: 600;
+}
+
+.contact_location i,
+.contact_phone i,
+.contact_email i,
+.contact_social i {
+    font-size: 3rem;
+}
+
+.contact_social i {
+    padding: 5px;
 }
 
 

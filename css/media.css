@@ -8,7 +8,7 @@
     }
 
     .exhibition_grid {
-        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
     }
 
     .exhibition_text {
@@ -26,14 +26,16 @@
     .grid_container {
         width: 90%;
     }
-    .grid_items {
+    .grid_items,
+    .upcoming_container,
+    .about_container,
+    .contact_grid {
         grid-template-columns: 1fr 1fr;
     }
 
-    .item-1 :nth-child(1) {
-        order: 2;
-    }
-    .item-3 :nth-child(1) {
+    .item-1 :nth-child(1),
+    .item-3 :nth-child(1),
+    .upcoming_container :nth-child(1) {
         order: 2;
     }
 
@@ -45,59 +47,18 @@
         min-height: 500px;
     }
 
-    .current_grid {
-        width: 90%;
-    }
-
-    .current_item {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .upcoming_container {
-        grid-template-columns: 1fr 1fr;
-    }
-    
-    .upcoming_container {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .upcoming_container :nth-child(1) {
-        order: 2;
-    }
-
     .visit_grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .about_container {
-        grid-template-columns: 1fr 1fr;
-    }
-    
-    .about_container {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .get-involved_item {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .get-involved_item-1 :nth-child(1) {
-        order: 2;
-    }
-
-    .get-involved_item-3 :nth-child(1) {
-        order: 2;
-    }
-
     .contact_grid {
-        grid-template-columns: 1fr 1fr;
         gap: 0;
     }
 
 }
 
 @media (min-width: 1250px) {
-    .explore_grid {
+    .explore_flex {
         flex-direction: row;
         align-items: baseline;
         gap: 10px;
@@ -126,12 +87,6 @@
 
     nav li a {
         color: var(--secondary-text-color);
-    }
-
-    .explore_grid {
-        flex-direction: row;
-        align-items: baseline;
-        gap: 10px;
     }
 
     .explore-grid_items {

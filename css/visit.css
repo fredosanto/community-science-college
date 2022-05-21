@@ -2,14 +2,6 @@
     text-align: center;
 }
 
-.bg-main {
-    background-color: var(--primary-color);
-}
-
-.bg-blue {
-    background-color: var(--secondary-color);
-}
-
 .visit_grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -39,7 +31,7 @@
 
 .general-info i {
     color: var(--primary-text-colour);
-    font-size: 2rem;
+    font-size: 3rem;
     padding-top: 25px;
     padding-bottom: 10px;
 }

@@ -33,20 +33,6 @@
 
 /* MAIN SECTION */
 
-.primary-bg {
-    background-color: var(--primary-color);
-}
-
-.secondary-bg {
-    background-color: var(--secondary-color);
-}
-
-.alternate-bg {
-    background-color: var(--secondary-bg-color);
-    color: var(--secondary-text-color);
-}
-
-
 section p {
     text-align: left;
     padding: 15px;
@@ -70,77 +56,28 @@ section p {
     width: 100%;
 }
 
-.textbox_content {
-    max-width: 800px;
-    margin: 50px auto;
-}
-
-.textbox p {
-    font-size: 1.25rem;
-}
 
 /* EVENT SECTION */
 
-/* TEST */
-
 .slide-content_section {
     text-align: center;
-}
-
-
-.grid_container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 25px;
-    width: 100%;
-    margin: auto;
-}
-
-.grid_items {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-.grid_image {
-    max-height: 500px;
-}
-
-.grid_image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.grid_text {
-    background-color: var(--primary-color);
-    display: grid;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
 }
 
 .align_text {
     padding: 10px;
 }
 
-.grid_content {
-    text-align: left;
-    margin: auto;
-    max-width: 700px;
-}
-
-.bg-black {
-    background-color: var(--secondary-bg-color);
-    color: var(--secondary-text-color);
-}
-
 .hide-image {
     display: none;
 }
 
+.grid_image {
+    max-height: 500px;
+}
+
 /* EXPLORE SECTION */
 
-.explore_grid {
+.explore_flex {
     display: flex;
     flex-direction: column;
 }
@@ -156,10 +93,8 @@ section p {
     height: 100%;
 }
 
-.explore_image img{
-    width: 100%;
-    height: 100%;
-}
+
+/* INFO SECTION */
 
 .info_textbox {
     height: 350px;
